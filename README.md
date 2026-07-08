@@ -18,18 +18,30 @@ telescope technology.
 ---
 
 ## Project Structure
+```
 nasa-neo-analysis/
-├── data/
-│   ├── raw/              ← Raw JSON from NASA API (not tracked in Git)
-│   └── processed/        ← Clean CSV ready for SQL load
-├── notebooks/
-│   ├── 01_extraction.ipynb    ← API calls, raw data download
-│   └── 02_transformation.ipynb ← Cleaning, type casting, SQL load
-├── sql/
-│   └── 03_analysis_queries.sql
-├── dashboard/
-│   └── nasa_neo_analysis.pbix
-└── README.md
+               data/
+                  raw/
+                     neo_raw (JSON from NASA API)
+                  processed/ 
+                     neo_clean (CSV ready for SQL load)
+                  notebooks/
+                     01_extraction.ipynb (API calls, raw data download)
+                     02_transformation.ipynb (Cleaning, type casting, SQL load)
+                  sql/
+                     01_create_tables.sql
+                     02_analisis_queries.sql
+                  dashboard/
+                     nasa_neo_analysis.pbix
+                  images/
+                      dashboard.png
+                  README.md
+```
+
+
+## Dasboard
+
+![Dashboard](nasa-neo-analisis/images/dashboard.png)
 
 ---
 
