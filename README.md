@@ -41,7 +41,7 @@ nasa-neo-analysis/
 
 ## Dasboard
 
-![Dashboard](nasa_neo_analisis/images/dashboard.png)
+![Dashboard](images/dashboard.png)
 
 ---
 
