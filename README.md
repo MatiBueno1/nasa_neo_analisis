@@ -18,7 +18,7 @@ telescope technology.
 ---
 
 ## Project Structure
-
+```
 nasa-neo-analysis/
                data/
                   raw/
@@ -33,7 +33,15 @@ nasa-neo-analysis/
                      02_analisis_queries.sql
                   dashboard/
                      nasa_neo_analysis.pbix
+                  images/
+                      dashboard.png
                   README.md
+```
+
+
+## Dasboard
+
+![Dashboard](nasa-neo-analisis/images/dashboard.png)
 
 ---
 
